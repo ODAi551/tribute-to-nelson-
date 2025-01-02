@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tribute to Nelson Mandela">
+    <title>Tribute to Nelson Mandela</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        header {
+            background-color: #005b99;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #2e6a47;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .bio img, .gallery img, .section img {
+            width: 100%;
+            max-width: 700px;
+            max-height: 450px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: 2px solid #ddd;
+        }
+
+        .timeline {
+            margin-top: 20px;
+        }
+
+        .timeline ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .timeline li {
+            padding: 10px;
+            background-color: #e8f5e9;
+            margin-bottom: 10px;
+            border-left: 5px solid #2e6a47;
+            font-size: 16px;
+        }
+
+        .testimonial-form input,
+        .testimonial-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .testimonial-form button {
+            padding: 10px 20px;
+            background-color: #2e6a47;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .testimonial-form button:hover {
+            background-color: #256b3c;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                padding: 10px 15px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            .timeline li {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Tribute to Nelson Mandela</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#bio">Biography</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#legacy">Legacy</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <!-- Homepage Section -->
+        <section id="home" class="section">
+            <h2>Welcome to the Tribute Website</h2>
+            <img src="odai.jpg" alt="Nelson Mandela">
+            <p>This website is dedicated to Nelson Mandela, a legendary South African leader and anti-apartheid revolutionary who became a global symbol of peace and equality.</p>
+        </section>
+
+        <!-- Biography Section -->
+        <section id="bio" class="section bio">
+            <h2>Biography</h2>
+            <img src="odai2.jpg" alt="Nelson Mandela">
+            <p>Nelson Rolihlahla Mandela was born on <strong>July 18, 1918</strong>, in the village of Mvezo, South Africa. Mandela served as South Africa's first Black president from 1994 to 1999. A fierce opponent of apartheid, he spent 27 years in prison before leading the nation into a new era of reconciliation and democracy.</p>
+        </section>
+
+        <!-- Leadership Section -->
+        <section id="leadership" class="section">
+            <h2>Leadership & Political Influence</h2>
+            <img src="odai3.jpg" alt="Nelson Mandela addressing a crowd">
+            <p>Nelson Mandela's presidency was marked by efforts to heal a divided nation and dismantle the remnants of apartheid. He emphasized forgiveness, national unity, and peace. Mandela's leadership inspired countless movements for social justice around the world.</p>
+        </section>
+
+        <!-- Legacy Section -->
+        <section id="legacy" class="section">
+            <h2>Legacy</h2>
+            <img src="odai4.jpg" alt="Nelson Mandela with global leaders">
+            <p>Mandela is celebrated for his role in ending apartheid and promoting global human rights. His legacy lives on as a beacon of hope for those fighting against oppression and inequality.</p>
+            <h3>Timeline of Key Events</h3>
+            <div class="timeline">
+                <ul>
+                    <li>1944: Joined the African National Congress (ANC).</li>
+                    <li>1964: Sentenced to life imprisonment during the Rivonia Trial.</li>
+                    <li>1990: Released from prison after 27 years.</li>
+                    <li>1994: Elected as the first Black President of South Africa.</li>
+                    <li>2013: Passed away on December 5, leaving a global legacy of peace.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section gallery">
+            <h2>Photo & Media Gallery</h2>
+            <img src="odai5.jpg" alt="Nelson Mandela in a moment of reflection">
+            <p>Explore images and videos of Nelson Mandela from his life, leadership, and the anti-apartheid movement.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Leave a Tribute</h2>
+            <p>Feel free to share your thoughts and memories of Nelson Mandela.</p>
+            <div class="testimonial-form">
+                <input type="text" placeholder="Your Name" required>
+                <textarea placeholder="Your Tribute" required></textarea>
+                <button type="submit">Submit Tribute</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 created this web site by ODAI SIDDIG.</p>
+    </footer>
+</body>
+
+</html>
